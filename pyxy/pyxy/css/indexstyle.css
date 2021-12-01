@@ -1,0 +1,20 @@
+/*
+rózsaszín: d301ab;
+kék: 00b9ff;
+*/
+.border-bottom-gradient {
+    background: #FFF;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, rgba(212,0,171,1) 0%, rgba(0,185,255,1) 100%) 10;
+}
+.border-top-gradient {
+    background: #FFF;
+    border-top: 3px solid;
+    border-image: linear-gradient(90deg, rgba(212,0,171,1) 0%, rgba(0,185,255,1) 100%) 10;
+/*border-image: linear-gradient(var(--angle), green, yellow) 1;*/
+}
+.carousel-image
+{
+    width:25%;
+    margin:auto;
+}
